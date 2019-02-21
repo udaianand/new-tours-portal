@@ -7,4 +7,8 @@ public class CruisesPage extends TestBase {
 	void searchCruise() {
 		System.out.println("Search for the desired Cruise...");
 	}
+
+	public String validateCruisePageTitle() {
+		return driver.getTitle();
+	}
 }

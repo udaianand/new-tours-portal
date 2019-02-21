@@ -38,8 +38,4 @@ public class LoginPage extends TestBase {
 		return new FlightsPage();
 	}
 
-	public void validatePageTitle() {
-
-	}
-
 }
